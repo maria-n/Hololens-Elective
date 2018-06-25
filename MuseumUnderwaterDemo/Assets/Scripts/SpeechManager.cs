@@ -17,6 +17,8 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
     public bool developerMode = false;
 
     private GameObject heldObject;
+    private AudioSource audioPlayer;
+
 
     void Awake()
     {
@@ -29,6 +31,7 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
         {
             Destroy(this.gameObject);
         }
+        audioPlayer = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -86,6 +89,7 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
 
     public void placeObjectIndex(int index)
     {
+        audioPlayer.Play();
         //need to check for developer mode still
         heldObject = Instantiate(placementObjects[index]);
         heldObject.GetComponent<TapToPlace>().IsBeingPlaced = true;
@@ -93,7 +97,13 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
 
     public void toggleDeveloper()
     {
+        audioPlayer.Play();
         Debug.Log("Dev Mode toggled");
         developerMode = !developerMode;
+    }
+
+    void soundFeedbackPlay()
+    {
+        audioPlayer.Play();
     }
 }
