@@ -7,8 +7,8 @@
 # Default behavior is to never overwrite files
 MuseumUnderwaterDemo.sln: 5D63ED5949817A311F85993F447008D3
 project.json: 1D02BC64BAC0D041019673A1C4C51737
-MuseumUnderwaterDemo\App.cs: modified
-MuseumUnderwaterDemo\MuseumUnderwaterDemo.csproj: modified
+MuseumUnderwaterDemo\App.cs: C92FBA6CA236A532CE027917E865CBD9
+MuseumUnderwaterDemo\MuseumUnderwaterDemo.csproj: 744E9A152F399DC9C6F29B4463F3A5B9
 MuseumUnderwaterDemo\MuseumUnderwaterDemo.csproj.user: modified
 MuseumUnderwaterDemo\Package.appxmanifest: 03720A04AA22294D9DFB6A77DE264D7A
 MuseumUnderwaterDemo\project.json: 1D02BC64BAC0D041019673A1C4C51737
@@ -18,4 +18,5 @@ MuseumUnderwaterDemo\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE9D870A9D
 MuseumUnderwaterDemo\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
 MuseumUnderwaterDemo\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
 MuseumUnderwaterDemo\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
+MuseumUnderwaterDemo\obj\x86\Release\MuseumUnderwaterDemo.csproj.CopyComplete: D41D8CD98F00B204E9800998ECF8427E
 MuseumUnderwaterDemo\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826
