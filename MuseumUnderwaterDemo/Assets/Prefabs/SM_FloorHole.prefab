@@ -88,7 +88,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1724532442040852}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 10000, y: 0, z: 0}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children:
   - {fileID: 4452634734726796}
@@ -239,9 +239,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 0}
   boundingBoxPrefab: {fileID: 0}
-  manipulationMode: 2
+  manipulationMode: 6
   rotationConstraint: 2
-  enableOneHandMovement: 1
+  enableOneHandMovement: 0
 --- !u!198 &198229154366257932
 ParticleSystem:
   m_ObjectHideFlags: 1

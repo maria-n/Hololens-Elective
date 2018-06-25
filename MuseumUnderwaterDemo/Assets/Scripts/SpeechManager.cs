@@ -8,7 +8,10 @@ using HoloToolkit.Unity.SpatialMapping;
 public class SpeechManager : MonoBehaviour, ISpeechHandler
 {
 
-    public GameObject[] placementObjects;
+    public GameObject[] placementKelp;
+    public GameObject[] placementReef;
+    public GameObject[] placementHole;
+    public GameObject[] placementCoral;
     public string[] placementObjectStrings;
 
     public GameObject devModeIndicator;
@@ -54,7 +57,7 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
 
         //if (developerMode)
         //{
-            for (int i = 0; i < placementObjects.Length; i++)
+            /*for (int i = 0; i < placementObjects.Length; i++)
             {
                 if (eventData.RecognizedText == placementObjectStrings[i])
                 {
@@ -62,14 +65,57 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
                     heldObject.GetComponent<TapToPlace>().IsBeingPlaced = true;
                     //set placementObjects as placement thingy
                 }
-            }
+            }*/
 
         //}
     }
 
-    public void placeHole()
+    public GameObject getObject(int objectIndex)
     {
-        placeObjectIndex(0);
+        switch(objectIndex)
+        {
+            case 0:
+                for(int i = 0; i < placementHole.Length; i++)
+                {
+                    if(Vector3.Distance(placementHole[i].transform.position, Camera.main.transform.position) > 300.0f)
+                    {
+                        return placementHole[i];
+                    }
+                }
+                break;
+
+            case 1:
+                for (int i = 0; i < placementKelp.Length; i++)
+                {
+                    if (Vector3.Distance(placementKelp[i].transform.position, Camera.main.transform.position) > 300.0f)
+                    {
+                        return placementKelp[i];
+                    }
+                }
+                break;
+
+            case 2:
+                for (int i = 0; i < placementReef.Length; i++)
+                {
+                    if (Vector3.Distance(placementReef[i].transform.position, Camera.main.transform.position) > 300.0f)
+                    {
+                        return placementReef[i];
+                    }
+                }
+                break;
+
+            case 3:
+                for (int i = 0; i < placementCoral.Length; i++)
+                {
+                    if (Vector3.Distance(placementCoral[i].transform.position, Camera.main.transform.position) > 300.0f)
+                    {
+                        return placementCoral[i];
+                    }
+                }
+                break;
+        }
+        return null;
+        
     }
 
     public void placeKelp()
@@ -90,8 +136,7 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
     public void placeObjectIndex(int index)
     {
         audioPlayer.Play();
-        //need to check for developer mode still
-        heldObject = Instantiate(placementObjects[index]);
+        heldObject = getObject(index);
         heldObject.GetComponent<TapToPlace>().IsBeingPlaced = true;
     }
 
