@@ -569,7 +569,7 @@ PlayerSettings:
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
-  metroCertificateNotAfter: 00541398712bd501
+  metroCertificateNotAfter: 80ee5d408320d501
   metroApplicationDescription: MuseumUnderwaterDemo
   wsaImages: {}
   metroTileShortName: 
