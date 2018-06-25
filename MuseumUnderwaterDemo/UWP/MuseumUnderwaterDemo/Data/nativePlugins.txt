@@ -1,5 +1,5 @@
-PlaneFinding.dll
 MicStreamSelector.dll
-GpuTiming.dll
 SharingClient.dll
 SpatialUnderstanding.dll
+GpuTiming.dll
+PlaneFinding.dll
