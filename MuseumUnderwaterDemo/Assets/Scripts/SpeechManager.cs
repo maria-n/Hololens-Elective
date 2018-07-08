@@ -141,9 +141,11 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
 
     public void placeObjectIndex(int index)
     {
-        audioPlayer.Play();
         heldObject = getObject(index);
+        if(heldObject)
+            audioPlayer.Play();
         heldObject.GetComponent<TapToPlace>().IsBeingPlaced = true;
+        heldObject.GetComponent<TapToPlace>().HandlePlacement();
     }
 
     public void placeDino()
