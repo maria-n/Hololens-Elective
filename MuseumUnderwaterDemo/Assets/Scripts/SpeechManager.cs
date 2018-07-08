@@ -174,12 +174,14 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
         {
             dino.GetComponent<TapToPlace>().enabled = true;
             dino.GetComponent<TwoHandManipulatable>().enabled = true;
+            dino.GetComponent<BoxCollider>().enabled = true;
             dinoCube.SetActive(false);
         }
         else
         {
             dino.GetComponent<TapToPlace>().enabled = false;
             dino.GetComponent<TwoHandManipulatable>().enabled = false;
+            dino.GetComponent<BoxCollider>().enabled = false;
             dinoCube.SetActive(true);
         }
     }

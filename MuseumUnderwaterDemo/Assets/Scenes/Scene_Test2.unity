@@ -2088,6 +2088,40 @@ MonoBehaviour:
           m_CallState: 1
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+  - Keyword: Info
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 888921064}
+          m_MethodName: RequestInformation
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - Keyword: Edit
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 888921064}
+          m_MethodName: toggleDeveloper
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
   IsGlobalListener: 1
   PersistentKeywords: 0
 --- !u!4 &1431163683
@@ -2235,7 +2269,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -2477,6 +2511,10 @@ MonoBehaviour:
     KeyCode: 102
   - Keyword: Dino
     KeyCode: 103
+  - Keyword: Edit
+    KeyCode: 109
+  - Keyword: Info
+    KeyCode: 110
   recognitionConfidenceLevel: 1
 --- !u!4 &1773521615
 Transform:
