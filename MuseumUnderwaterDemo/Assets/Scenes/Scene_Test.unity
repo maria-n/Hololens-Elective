@@ -343,7 +343,7 @@ MonoBehaviour:
   PlaceParentOnTap: 0
   ParentGameObjectToPlace: {fileID: 0}
   IsBeingPlaced: 1
-  AllowMeshVisualizationControl: 1
+  AllowMeshVisualizationControl: 0
   UseColliderCenter: 0
 --- !u!114 &149338132
 MonoBehaviour:
@@ -1912,7 +1912,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4138900524624336, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 61.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4138900524624336, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1957,6 +1957,10 @@ Prefab:
     - target: {fileID: 4138900524624336, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115441724216518, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37694278
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}
@@ -2348,8 +2352,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 888921064}
-          m_MethodName: placeObjectIndex
-          m_Mode: 3
+          m_MethodName: placeDino
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2365,8 +2369,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 888921064}
-          m_MethodName: placeObjectIndex
-          m_Mode: 3
+          m_MethodName: placeDino
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

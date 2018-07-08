@@ -143,6 +143,12 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
         heldObject.GetComponent<TapToPlace>().IsBeingPlaced = true;
     }
 
+    public void placeDino()
+    {
+        audioPlayer.Play();
+        dino.GetComponent<TapToPlace>().IsBeingPlaced = true;
+    }
+
     public void toggleDeveloper()
     {
         audioPlayer.Play();
