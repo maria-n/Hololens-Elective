@@ -375,7 +375,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.05, y: 0.05, z: 0.05}
+  m_Size: {x: 1.66, y: 0.59, z: 0.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &149338135
 MeshFilter:
@@ -418,6 +418,22 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &149338137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 149338130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb034688bcf84b4bb52b3a3310868c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hostTransform: {fileID: 0}
+  boundingBoxPrefab: {fileID: 0}
+  manipulationMode: 6
+  rotationConstraint: 2
+  enableOneHandMovement: 0
 --- !u!1001 &294651723
 Prefab:
   m_ObjectHideFlags: 0
@@ -1367,15 +1383,16 @@ MonoBehaviour:
   - {fileID: 907344606}
   - {fileID: 93364246}
   - {fileID: 294651725}
-  dino: {fileID: 149338130}
   placementObjectStrings:
   - Hole
   - Kelp
   - Reef
   - Coral
   - Dino
+  dino: {fileID: 149338130}
+  dinoCube: {fileID: 1099279216}
   devModeIndicator: {fileID: 974378064}
-  developerMode: 0
+  developerMode: 1
 --- !u!4 &888921065
 Transform:
   m_ObjectHideFlags: 0
@@ -1762,6 +1779,11 @@ Transform:
   m_Father: {fileID: 1117455688}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: -90}
+--- !u!1 &1099279216 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1721814247345318, guid: 8f30526ba8372e24b9b84415334d9aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1122584912}
 --- !u!1001 &1109049804
 Prefab:
   m_ObjectHideFlags: 0
@@ -1904,7 +1926,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4138900524624336, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.34
       objectReference: {fileID: 0}
     - target: {fileID: 4138900524624336, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1960,7 +1982,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4115441724216518, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.37694278
+      value: 0.3991272
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using HoloToolkit.Unity.InputModule;
 using HoloToolkit.Unity.SpatialMapping;
+using HoloToolkit.Unity.InputModule.Utilities.Interactions;
 
 
 public class SpeechManager : MonoBehaviour, ISpeechHandler
@@ -12,8 +13,10 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
     public GameObject[] placementReef;
     public GameObject[] placementHole;
     public GameObject[] placementCoral;
-    public GameObject dino;
     public string[] placementObjectStrings;
+
+    public GameObject dino;
+    public GameObject dinoCube;
 
     public GameObject devModeIndicator;
 
@@ -40,7 +43,7 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
 
     void Start()
     {
-
+        dinoEditingMode(developerMode);
     }
 
     void Update()
@@ -154,6 +157,24 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
         audioPlayer.Play();
         Debug.Log("Dev Mode toggled");
         developerMode = !developerMode;
+        dinoEditingMode(developerMode);
+
+    }
+
+    public void dinoEditingMode(bool editModeOn)
+    {
+        if(editModeOn)
+        {
+            dino.GetComponent<TapToPlace>().enabled = true;
+            dino.GetComponent<TwoHandManipulatable>().enabled = true;
+            dinoCube.SetActive(false);
+        }
+        else
+        {
+            dino.GetComponent<TapToPlace>().enabled = false;
+            dino.GetComponent<TwoHandManipulatable>().enabled = false;
+            dinoCube.SetActive(true);
+        }
     }
 
     void soundFeedbackPlay()
