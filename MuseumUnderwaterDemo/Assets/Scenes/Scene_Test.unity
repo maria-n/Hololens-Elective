@@ -166,6 +166,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114819423368608820, guid: 05dceec06969514438d365550307d411,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05dceec06969514438d365550307d411, type: 2}
   m_IsPrefabParent: 0
@@ -225,6 +230,11 @@ Prefab:
     - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
         type: 2}
       propertyPath: AllowMeshVisualizationControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
+        type: 2}
+      propertyPath: IsBeingPlaced
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -300,6 +310,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114010522350650830, guid: ddc5f7388a1b3504682c36d7d011263c,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ddc5f7388a1b3504682c36d7d011263c, type: 2}
   m_IsPrefabParent: 0
@@ -327,7 +342,7 @@ MonoBehaviour:
   DefaultGazeDistance: 2
   PlaceParentOnTap: 0
   ParentGameObjectToPlace: {fileID: 0}
-  IsBeingPlaced: 0
+  IsBeingPlaced: 1
   AllowMeshVisualizationControl: 1
   UseColliderCenter: 0
 --- !u!114 &149338132
@@ -456,6 +471,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114819423368608820, guid: 05dceec06969514438d365550307d411,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05dceec06969514438d365550307d411, type: 2}
   m_IsPrefabParent: 0
@@ -529,6 +549,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114010522350650830, guid: ddc5f7388a1b3504682c36d7d011263c,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ddc5f7388a1b3504682c36d7d011263c, type: 2}
   m_IsPrefabParent: 0
@@ -588,6 +613,11 @@ Prefab:
     - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
         type: 2}
       propertyPath: AllowMeshVisualizationControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
+        type: 2}
+      propertyPath: IsBeingPlaced
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -663,6 +693,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114010522350650830, guid: ddc5f7388a1b3504682c36d7d011263c,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ddc5f7388a1b3504682c36d7d011263c, type: 2}
   m_IsPrefabParent: 0
@@ -718,6 +753,11 @@ Prefab:
     - target: {fileID: 114572913571214514, guid: fdcf9461d98d0ff46a22051750e9204a,
         type: 2}
       propertyPath: AllowMeshVisualizationControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114572913571214514, guid: fdcf9461d98d0ff46a22051750e9204a,
+        type: 2}
+      propertyPath: IsBeingPlaced
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -846,6 +886,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 25a845a88d8211642be69343cf880c6a, type: 2}
   m_IsPrefabParent: 0
@@ -901,6 +946,11 @@ Prefab:
     - target: {fileID: 114819423368608820, guid: 05dceec06969514438d365550307d411,
         type: 2}
       propertyPath: AllowMeshVisualizationControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114819423368608820, guid: 05dceec06969514438d365550307d411,
+        type: 2}
+      propertyPath: IsBeingPlaced
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -964,6 +1014,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114819423368608820, guid: 05dceec06969514438d365550307d411,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05dceec06969514438d365550307d411, type: 2}
   m_IsPrefabParent: 0
@@ -1023,6 +1078,11 @@ Prefab:
     - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
         type: 2}
       propertyPath: AllowMeshVisualizationControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
+        type: 2}
+      propertyPath: IsBeingPlaced
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1098,6 +1158,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114010522350650830, guid: ddc5f7388a1b3504682c36d7d011263c,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ddc5f7388a1b3504682c36d7d011263c, type: 2}
   m_IsPrefabParent: 0
@@ -1159,6 +1224,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114572913571214514, guid: fdcf9461d98d0ff46a22051750e9204a,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdcf9461d98d0ff46a22051750e9204a, type: 2}
   m_IsPrefabParent: 0
@@ -1218,6 +1288,11 @@ Prefab:
     - target: {fileID: 114572913571214514, guid: fdcf9461d98d0ff46a22051750e9204a,
         type: 2}
       propertyPath: AllowMeshVisualizationControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114572913571214514, guid: fdcf9461d98d0ff46a22051750e9204a,
+        type: 2}
+      propertyPath: IsBeingPlaced
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1320,7 +1395,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 888921063}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2a98b181acba5549af3d852c7664623, type: 3}
   m_Name: 
@@ -1367,7 +1442,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -1375,20 +1450,20 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0
+      time: 0.002
       value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
     - serializedVersion: 2
       time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
+      value: 0.7333374
+      inSlope: -1.002004
+      outSlope: -1.002004
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1494,6 +1569,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114819423368608820, guid: 05dceec06969514438d365550307d411,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05dceec06969514438d365550307d411, type: 2}
   m_IsPrefabParent: 0
@@ -1553,6 +1633,11 @@ Prefab:
     - target: {fileID: 114819423368608820, guid: 05dceec06969514438d365550307d411,
         type: 2}
       propertyPath: AllowMeshVisualizationControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114819423368608820, guid: 05dceec06969514438d365550307d411,
+        type: 2}
+      propertyPath: IsBeingPlaced
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1730,6 +1815,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114572913571214514, guid: fdcf9461d98d0ff46a22051750e9204a,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdcf9461d98d0ff46a22051750e9204a, type: 2}
   m_IsPrefabParent: 0
@@ -1792,6 +1882,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 25a845a88d8211642be69343cf880c6a, type: 2}
   m_IsPrefabParent: 0
@@ -1850,6 +1945,18 @@ Prefab:
     - target: {fileID: 1721814247345318, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4138900524624336, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4138900524624336, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4138900524624336, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f30526ba8372e24b9b84415334d9aa5, type: 2}
@@ -1917,6 +2024,11 @@ Prefab:
     - target: {fileID: 114010522350650830, guid: ddc5f7388a1b3504682c36d7d011263c,
         type: 2}
       propertyPath: AllowMeshVisualizationControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114010522350650830, guid: ddc5f7388a1b3504682c36d7d011263c,
+        type: 2}
+      propertyPath: IsBeingPlaced
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1990,6 +2102,11 @@ Prefab:
     - target: {fileID: 114010522350650830, guid: ddc5f7388a1b3504682c36d7d011263c,
         type: 2}
       propertyPath: AllowMeshVisualizationControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114010522350650830, guid: ddc5f7388a1b3504682c36d7d011263c,
+        type: 2}
+      propertyPath: IsBeingPlaced
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2098,6 +2215,11 @@ Prefab:
     - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
         type: 2}
       propertyPath: AllowMeshVisualizationControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
+        type: 2}
+      propertyPath: IsBeingPlaced
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2600,6 +2722,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114010522350650830, guid: ddc5f7388a1b3504682c36d7d011263c,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ddc5f7388a1b3504682c36d7d011263c, type: 2}
   m_IsPrefabParent: 0
@@ -2721,6 +2848,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114572913571214514, guid: fdcf9461d98d0ff46a22051750e9204a,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdcf9461d98d0ff46a22051750e9204a, type: 2}
   m_IsPrefabParent: 0
@@ -2780,6 +2912,11 @@ Prefab:
     - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
         type: 2}
       propertyPath: AllowMeshVisualizationControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
+        type: 2}
+      propertyPath: IsBeingPlaced
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2853,6 +2990,11 @@ Prefab:
     - target: {fileID: 114010522350650830, guid: ddc5f7388a1b3504682c36d7d011263c,
         type: 2}
       propertyPath: AllowMeshVisualizationControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114010522350650830, guid: ddc5f7388a1b3504682c36d7d011263c,
+        type: 2}
+      propertyPath: IsBeingPlaced
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2964,6 +3106,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114572913571214514, guid: fdcf9461d98d0ff46a22051750e9204a,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdcf9461d98d0ff46a22051750e9204a, type: 2}
   m_IsPrefabParent: 0
@@ -3025,6 +3172,11 @@ Prefab:
       propertyPath: AllowMeshVisualizationControl
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
+        type: 2}
+      propertyPath: IsBeingPlaced
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 25a845a88d8211642be69343cf880c6a, type: 2}
   m_IsPrefabParent: 0
@@ -3084,6 +3236,11 @@ Prefab:
     - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
         type: 2}
       propertyPath: AllowMeshVisualizationControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114741958428539488, guid: 25a845a88d8211642be69343cf880c6a,
+        type: 2}
+      propertyPath: IsBeingPlaced
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
