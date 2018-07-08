@@ -66,9 +66,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1665729721029882}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 10000, y: 0, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: -1000, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4613139108825482}
   m_Father: {fileID: 0}
@@ -125,8 +125,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.469411, y: 1.285109, z: 3.317028}
-  m_Center: {x: 0.047574036, y: 0.50444996, z: 1.1516006}
+  m_Size: {x: 0.24973571, y: 0.09801343, z: 0.20267439}
+  m_Center: {x: -0.0002542138, y: 0.039548054, z: 0.06045842}
 --- !u!114 &114548665671156740
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -139,9 +139,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 0}
-  boundingBoxPrefab: {fileID: 0}
+  boundingBoxPrefab: {fileID: 114030465538688920, guid: 865a8ded6c47efd4285f04f3aebe99e9,
+    type: 2}
   manipulationMode: 6
-  rotationConstraint: 2
+  rotationConstraint: 0
   enableOneHandMovement: 0
 --- !u!114 &114572913571214514
 MonoBehaviour:
@@ -158,7 +159,7 @@ MonoBehaviour:
   PlaceParentOnTap: 0
   ParentGameObjectToPlace: {fileID: 0}
   IsBeingPlaced: 0
-  AllowMeshVisualizationControl: 1
+  AllowMeshVisualizationControl: 0
   UseColliderCenter: 0
 --- !u!114 &114999545590732790
 MonoBehaviour:

@@ -26,6 +26,8 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
     private GameObject heldObject;
     private AudioSource audioPlayer;
 
+    public AudioSource octiAudio;
+
 
     void Awake()
     {
@@ -190,5 +192,10 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
     public void RequestInformation()
     {
 
+    }
+
+    public void OctiTalk()
+    {
+        octiAudio.Play();
     }
 }
