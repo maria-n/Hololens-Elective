@@ -12,6 +12,7 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
     public GameObject[] placementReef;
     public GameObject[] placementHole;
     public GameObject[] placementCoral;
+    public GameObject dino;
     public string[] placementObjectStrings;
 
     public GameObject devModeIndicator;
@@ -113,6 +114,8 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
                     }
                 }
                 break;
+            case 4:
+                return dino;
         }
         return null;
         
