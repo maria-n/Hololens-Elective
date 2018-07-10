@@ -15,6 +15,9 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
     public GameObject[] placementCoral;
     public string[] placementObjectStrings;
 
+    [Tooltip("In the order Hole, Kelp, Mollusk, Ponifera, Dino.")]
+    public AudioClip[] requestInfoClips;
+
     public GameObject dino;
     public GameObject dinoCube;
 
@@ -27,6 +30,9 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
     private AudioSource audioPlayer;
 
     public AudioSource octiAudio;
+    public AudioSource octiRequestAudio;
+
+    private GameObject cameraObject;
 
 
     void Awake()
@@ -41,6 +47,7 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
             Destroy(this.gameObject);
         }
         audioPlayer = GetComponent<AudioSource>();
+        cameraObject = MixedRealityCameraManager.Instance.gameObject;
     }
 
     void Start()
@@ -193,7 +200,29 @@ public class SpeechManager : MonoBehaviour, ISpeechHandler
 
     public void RequestInformation()
     {
-
+        RaycastHit rayInformation;
+        Physics.Raycast(cameraObject.transform.position, cameraObject.transform.forward, out rayInformation, 100.0f);
+        Debug.Log(rayInformation.collider.gameObject.name);
+        if(rayInformation.collider.gameObject.name.Contains("Hole"))
+        {
+            // no voice line available!
+        }
+        else if (rayInformation.collider.gameObject.name.Contains("Kelp"))
+        {
+            octiRequestAudio.PlayOneShot(requestInfoClips[1]);
+        }
+        else if(rayInformation.collider.gameObject.name.Contains("Mollusk"))
+        {
+            octiRequestAudio.PlayOneShot(requestInfoClips[2]);
+        }
+        else if (rayInformation.collider.gameObject.name.Contains("Ponifera"))
+        {
+            octiRequestAudio.PlayOneShot(requestInfoClips[3]);
+        }
+        else if (rayInformation.collider.gameObject.name.Contains("Placodus"))
+        {
+            octiRequestAudio.PlayOneShot(requestInfoClips[4]);
+        }
     }
 
     public void OctiTalk()
